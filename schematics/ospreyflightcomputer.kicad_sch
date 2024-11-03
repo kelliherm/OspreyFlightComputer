@@ -1,0 +1,208 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "b45dc97e-0356-4cb7-a500-47b4284709b2")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 20.32 102.87)
+		(size 60.96 67.31)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "07e68e4b-2fd9-4499-917e-a7b570099c70")
+		(property "Sheetname" "Pyrotechnic Channels"
+			(at 20.32 102.1584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pyros.kicad_sch"
+			(at 20.32 170.7646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ospreyflightcomputer"
+				(path "/b45dc97e-0356-4cb7-a500-47b4284709b2"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 86.36 27.94)
+		(size 59.69 67.31)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4f4bbe3f-c5aa-4aa2-9658-70e7171eb8cc")
+		(property "Sheetname" "IMU and Barometer"
+			(at 86.36 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensors.kicad_sch"
+			(at 86.36 95.8346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ospreyflightcomputer"
+				(path "/b45dc97e-0356-4cb7-a500-47b4284709b2"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 20.32 27.94)
+		(size 60.96 67.31)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6e977a96-eda5-4473-b048-f02a88512d90")
+		(property "Sheetname" "Main Processing Unit"
+			(at 20.32 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mpu.kicad_sch"
+			(at 20.32 95.8346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ospreyflightcomputer"
+				(path "/b45dc97e-0356-4cb7-a500-47b4284709b2"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 215.9 27.94)
+		(size 59.69 67.31)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "820ced13-3847-45a7-abc0-c0c9d5c0dc2c")
+		(property "Sheetname" "Board Interfaces"
+			(at 215.9 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "board.kicad_sch"
+			(at 215.9 95.8346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ospreyflightcomputer"
+				(path "/b45dc97e-0356-4cb7-a500-47b4284709b2"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 151.13 27.94)
+		(size 59.69 67.31)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a36aecb0-82fd-4416-b4b8-8a958bd0b9ed")
+		(property "Sheetname" "Power System"
+			(at 151.13 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 151.13 95.8346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ospreyflightcomputer"
+				(path "/b45dc97e-0356-4cb7-a500-47b4284709b2"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

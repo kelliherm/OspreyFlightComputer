@@ -1,0 +1,116 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "4100eae3-497e-473f-a43d-04aa675bc50b")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 48.26 34.29) (xy 53.34 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc869339-5660-49ed-874a-d68fc7d526ef")
+	)
+	(wire
+		(pts
+			(xy 48.26 39.37) (xy 53.34 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ede231a5-e834-43c2-90f2-cdebca8032f5")
+	)
+	(global_label "PyroArm+"
+		(shape input)
+		(at 53.34 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "80864b26-719f-4114-a115-9add97eb2240")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 65.6385 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AllPyro+"
+		(shape input)
+		(at 53.34 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "80da523b-4647-423d-9ef5-17b546395161")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.4894 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PyroArm-"
+		(shape input)
+		(at 48.26 39.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a4b9f403-e86a-4084-a0e1-55250aa17619")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 35.9615 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Batt+"
+		(shape input)
+		(at 48.26 34.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a744e71d-5f34-4696-bd12-40ef8cf1c297")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 39.832 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+)
